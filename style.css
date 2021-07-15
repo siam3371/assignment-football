@@ -1,0 +1,68 @@
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+/* =============Common style or utilities========= */
+body {
+  font-family: "Poppins", sans-serif;
+  width: 1440px;
+  height: 3750px;
+}
+
+header {
+  height: 677px;
+  width: 1440px;
+  background-color: #2d25a0;
+  display: flex;
+}
+.name {
+  height: 207px;
+  width: 466px;
+  color: #ffffff;
+  margin-top: 221px;
+  margin-left: 158px;
+  font-weight: 700;
+}
+.name:hover {
+  color: aquamarine;
+}
+.khela a {
+  text-decoration: none;
+  height: 44px;
+  width: 166px;
+  margin-left: 156px;
+  padding: 10px 24px;
+  color: #ffffff;
+
+  background-color: #e02c6d;
+}
+.ball {
+  width: 556px;
+  height: 438px;
+}
+.box {
+  margin-top: 153px;
+  margin-right: 140px;
+}
+/*-------------------
+ ------------ FOOTBALLER ---------*/
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frist-player {
+  margin-left: 180px;
+  margin-top: 747px;
+  height: 474px;
+  width: 330px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.second-player {
+  margin-top: 747px;
+  margin-left: 540px;
+  background-color: #ffffff;
+  height: 474px;
+  width: 330px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
